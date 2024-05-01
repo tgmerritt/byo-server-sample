@@ -65,7 +65,7 @@ The value of `instructions` is documented at [UneeQ's Documentation Site](https:
 
 And (at least) a header like this:
 
-```json
+```javascript
 {
     'Content-Type', 'application/json'
 }

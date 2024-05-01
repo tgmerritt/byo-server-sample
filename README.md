@@ -5,8 +5,11 @@ Simple NodeJS application which implements a BYO service to integrate with UneeQ
 ## Installation & Execution
 
 `git clone`
+
 `cd byo-server-sample`
+
 `npm install`
+
 `node server.js`
 
 ## What should I do with this?
@@ -17,7 +20,7 @@ Synapse will _try_ to negotiate an HTTP/2 connection with your service (if suppo
 
 Synapse will send a POST request with a JSON BODY to your BYO Service with the following properties and their (types):
 
-```json
+```javascript
 {
     sid (String),
     customData (Object),
